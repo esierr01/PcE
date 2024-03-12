@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PcE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="contenido-general">
+        <!-- Contenedor menú -->
+        <div class="contenedor-menu">
+            <header>
+                <div class="menu-logo">
+                    <img src="img/Logo.jpeg" alt="">
+                    <span class="titu-uno">Programando</span>
+                    <span class="titu-dos">con</span>
+                    <span class="titu-tres">Emmanuel</span>
+                </div>
+                <nav id="id">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">CURSOS</a></li>
+                        <li><a href="#">TUTORIALES</a></li>
+                    </ul>
+                </nav>
+                <div class="boton-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+        <!-- Banner bienvenida -->
+        <section class="contenedor-bienvenida">
+            <p>
+                Bienvenidos a <strong>"Programando con Emmanuel"</strong> nuestra plataforma especializada en el
+                desarrollo web, donde exploramos y profundizamos en los aspectos fundamentales del desarrollo frontend y
+                backend. Aquí, encontrarás una rica colección de recursos y consejos prácticos sobre programación en
+                HTML, CSS, JavaScript, PHP, y MySQL, complementada con el uso eficiente de frameworks como Bootstrap,
+                DataTables y FontAwesome. Nuestro objetivo es proporcionar una comprensión profunda de estas
+                tecnologías, permitiendo a los desarrolladores y diseñadores web mejorar sus habilidades y crear
+                aplicaciones web robustas y atractivas.
+            </p>
+        </section>
+        <!-- Contenedor de tips -->
+        <section class="contenedor-tips">
+            <h1>T I P S</h1>
+            <div class="tip">
+                <details>
+                    <summary>REPOSITORIOS GIT / GITHUB</summary>
+                    <h4>Inicializar GIT en Local para nuestro proyecto</h4>
+                    <p>
+                        - Primero nos ubicamos en la terminal gitbash en el directorio de nuestro proyecto y escribimos:
+                        <br><br>
+                        <span>
+                            <strong>git init</strong> <small>>> Comando para iniciar Git Local en nuestro
+                                proyecto</small><br>
+                            <strong>git add .</strong> <small>>> Comando para agregar todos los archivos del proyecto al
+                                Git Local</small><br>
+                            <strong>git commit -m "mi primer commit"</strong> <small>>> Comando para hacer commit, se
+                                coloca comentario</small><br>
+                            <strong>git branch -M main</strong> <small>>> Comando para definir la rama del Git, se
+                                inicia como main</small><br>
+                        </span>
+
+                    </p>
+
+                    <h4>Inicializar GIT ahora en repositorio en GITHUB (nube)</h4>
+                    <p>
+                        - Creamos en www.github.com una cuenta y luego el repositorio nuevo donde guardaremos nuestro
+                        proyecto y nos ubicamos en la terminal gitbash en el directorio de nuestro proyecto y
+                        escribimos: <br><br>
+                        <span>
+                            <strong>git remote add origin https://github.com/user/repo.git</strong> <small>>> Comando
+                                para indicar repositorio (GITHUB) creado</small><br>
+                            <strong>git push -u origin main</strong> <small>>> Comando para cargar los archivos del
+                                repositorio local al repositorio en GITHUB</small><br>
+                        </span>
+                    </p>
+
+                    <h4>Actualizar repositorio en GITHUB (nube)</h4>
+                    <p>
+                        - Primero nos ubicamos en la terminal gitbash en el directorio de nuestro proyecto y escribimos:
+                        <br><br>
+                        <span>
+                            <strong>git status</strong> <small>>> Comando para ver los commits pendientes</small><br>
+                            <strong>git add .</strong> <small>>> Comando para agregar todos los archivos del proyecto
+                                nuevos y/o modificados al Git Local</small><br>
+                            <strong>git commit -m "msg descriptivo del commit"</strong> <small>>> Comando para hacer
+                                commit</small><br>
+                            <strong>git push -u origin main</strong> <small>>> Comando para cargar cambios al
+                                repositorio en GITHUB</small>
+                        </span>
+                    </p>
+                </details>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="redes-sociales">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="desarrollado-por">
+            <p>© 2024 Diseñado y desarrollado por Emmanuel Sierra. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- final del body, llamada a scripts -->
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
