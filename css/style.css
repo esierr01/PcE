@@ -175,6 +175,16 @@ html {
 .contenedor-tips .tip details p span small {
     color: var(--letra-opaca);
 }
+.contenedor-tips .tip details .contenido-texto {
+    margin: auto;
+    padding: 5px;
+    line-height: 0.8;
+    border-radius: 5px;
+    background-color: var(--fondo-titulo);
+    width: 90%;
+    color: var(--letras-menu);
+    font-size: 1.1em;
+}
 /* ************************************************* */
 /* Estilos Footer */
 /* ************************************************* */
